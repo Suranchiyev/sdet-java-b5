@@ -7,7 +7,20 @@ public class ReturnMethods {
 		String res = getHi();
 		System.out.println(res); // hey
 		
-		getHi();
+		// getHi();
+		
+		int resNum = getMyNumber();
+		System.out.println(resNum); // 7
+	}
+	
+	public static int getMyNumber() {
+		System.out.println("Inside getMyNumber");
+		int num = 7;
+		
+		// when we return the value, the java will exit the method.
+		return num;
+		
+		// System.out.println("After return"); // Unreachable code.
 	}
 	
 	// String - return type of this method.
@@ -23,5 +36,4 @@ public class ReturnMethods {
 	public static void sayHi() {
 		System.out.println("Hi");
 	}
-	// BREAK TILL 11:25 AM EST
 }
