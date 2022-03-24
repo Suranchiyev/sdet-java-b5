@@ -17,6 +17,13 @@ public class ZooKeeper {
 		
 		obj2.run();
 		System.out.println(obj2.name); // John
+		
+		// new code here
+		Alligator aObj = (Alligator) obj2;
+		System.out.println(aObj.name); // Abc
+
+		// OR if you want to have shorted code(it is same as above)
+		System.out.println(((Alligator) obj2).name); // Abc
 		System.out.println("-------");
 		
 		// Type casting
