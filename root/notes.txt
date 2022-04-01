@@ -1,0 +1,35 @@
+0. What's inheritance in Java? Why do we use it?
+   It's one of the OOP concepts in Java. It is mechanism where one class can inherit visible properties and methods. We use extends keyword for it. 
+
+   To reuse common properties/code from existing class.
+
+1. What's the difference between method overloading and method overriding?
+   Overloading will be in the same class when methods have same name but different(type, number. order) arguments.
+
+   Overriding when we override the parent class method in the child class. Method should have exactly same name and same method signatures.
+
+2. Can we override final methods? 
+   No.
+   What I can do if I don't want to anyone to override my method?
+   Make it final. 
+
+3. What's 'this' and 'super' keywords in java?
+   this - refers to current object
+   super - refers to parent object
+
+
+3. Can we override static methods in java?
+   No.
+
+4. What does it mean if class is final?
+   We cannot extend it. 
+
+5. What are the two classes that every class in java extends?
+   There is no two classes. There is only one class - Object.java
+   Object class is parent class of every class in Java.
+
+6. How do you compare two custom Objects?
+   By overriding equals() method or we can compare manually by getting each property from both objects.
+
+7. What's the default behavior of .equals method? 
+   The default behavior is comparing by == operator.

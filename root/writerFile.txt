@@ -1,0 +1,3 @@
+Hello, World!
+Java is object-oriented programming language
+There are 4 concepts of OOP in java.
